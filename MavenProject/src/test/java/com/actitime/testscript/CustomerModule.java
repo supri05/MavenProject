@@ -3,19 +3,13 @@ package com.actitime.testscript;
 import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
-import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
 import org.testng.Reporter;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.actitime.generic.BaseClass;
-import com.actitime.generic.FileLib;
-import com.actitime.pom.HomePage;
-import com.actitime.pom.TaskListpage;
 //@Listeners(com.actitime.generic.ListenerImplemention.class)
 public class CustomerModule extends BaseClass{
-	@Test(priority = 1)
+	@Test
 public void createCustomer() throws InterruptedException, EncryptedDocumentException, IOException {
 //	HomePage hg1 = new HomePage( driver);
 //	hg1.task();
