@@ -6,9 +6,8 @@ import org.apache.poi.EncryptedDocumentException;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-import com.actitime.generic.BaseClass;
 //@Listeners(com.actitime.generic.ListenerImplemention.class)
-public class CustomerModule extends BaseClass{
+public class CustomerModule {
 	@Test
 public void createCustomer() throws InterruptedException, EncryptedDocumentException, IOException {
 //	HomePage hg1 = new HomePage( driver);
